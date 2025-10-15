@@ -1,0 +1,11 @@
+# Voice to Text - Groq STT Version
+groq==0.11.0
+pyaudio==0.2.14
+pynput==1.7.6
+pyperclip==1.8.2
+numpy==1.24.3
+requests>=2.31.0
+pyinstaller==6.3.0
+customtkinter==5.2.2
+pillow==10.1.0
+matplotlib==3.8.2

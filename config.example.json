@@ -1,0 +1,99 @@
+{
+    "_comment": "File ví dụ cấu hình với nhiều API keys - Copy thành config.json và thay API keys của bạn",
+    
+    "stt": {
+        "provider": "groq",
+        "api_base": "https://api.groq.com/openai/v1",
+        "model": "whisper-large-v3",
+        "api_key_env": "GROQ_API_KEY",
+        
+        "_comment_api_keys": "Dùng 1 TRONG 2 cách sau:",
+        
+        "_option_1_single_key": "Dùng 1 key duy nhất",
+        "api_key": "gsk_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        
+        "_option_2_multiple_keys": "HOẶC dùng nhiều keys (tự động chuyển khi hết quota)",
+        "api_keys": [
+            "gsk_Key1XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "gsk_Key2XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "gsk_Key3XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        ],
+        
+        "_note": "Lấy API keys miễn phí tại: https://console.groq.com/keys",
+        
+        "timeout": 60
+    },
+    
+    "hotkey": {
+        "key": "ctrl+alt",
+        "exit_key": "ctrl+alt+c"
+    },
+    
+    "whisper": {
+        "model_size": "small",
+        "language": "vi",
+        "device": "cpu",
+        "compute_type": "int8",
+        "beam_size": 8,
+        "best_of": 8,
+        "temperature": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+    },
+    
+    "audio": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "chunk_size": 2048,
+        
+        "_comment_device": "Nếu ghi âm bị lấy system audio, chạy: python check_audio_devices.py",
+        "input_device_index": null,
+        
+        "silence_threshold": 150,
+        "silence_duration": 3.0,
+        "max_recording_time": 30.0,
+        "min_recording_time": 1.0,
+        "voice_activity_detection": false,
+        "audio_enhancement": {
+            "enabled": true,
+            "normalize_volume": true,
+            "reduce_noise": true,
+            "enhance_speech": true,
+            "apply_filter": true
+        }
+    },
+    
+    "text_input": {
+        "method": "paste",
+        "typing_delay": 0.01
+    },
+    
+    "logging": {
+        "level": "WARNING",
+        "show_console": false
+    },
+    
+    "gui": {
+        "show_overlay": true,
+        "overlay_position": "center",
+        "auto_hide_delay": 0.0,
+        "theme": "dark",
+        "window_width": 400,
+        "window_height": 200,
+        "transparency": 0.95,
+        "animation_speed": 0.05,
+        "pulse_effect": true,
+        "wave_visualization": true
+    },
+    
+    "text_correction": {
+        "enabled": true,
+        "method": "advanced_dictionary",
+        "show_original": false,
+        "confidence_threshold": 0.9,
+        "fix_tone_marks": true,
+        "fix_grammar": true,
+        "fix_homophones": true,
+        "normalize_text": true,
+        "smart_capitalization": true,
+        "context_correction": true
+    }
+}

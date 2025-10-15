@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Logs
+*.log
+logs/
+voice_to_text.log
+
+# Config với API keys (QUAN TRỌNG!)
+config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+release/*.exe
+release_small/
+VoiceToText_OLD.exe
+
+# Security check script output
+check_exe_security.py
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
