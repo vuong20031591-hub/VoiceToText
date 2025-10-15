@@ -14,9 +14,7 @@
 
 ## Demo
 
-
-### Screenshots
-
+https://github.com/user-attachments/assets/27fa163c-b12d-4980-b36e-df5145adc0a6
 
 ---
 
@@ -306,7 +304,7 @@ Dự án được phát hành dưới **MIT License** - xem file [LICENSE](LICEN
 ### Cộng đồng
 - **Discussion:** [GitHub Discussions](../../discussions)
 - **Issues:** [GitHub Issues](../../issues)
-- **Email:** voicetotext@example.com
+- **Email:** vuong20032604@gmail.com
 
 ### Contributors
 Cảm ơn những người đã đóng góp cho dự án!
