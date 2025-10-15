@@ -322,7 +322,7 @@ How did you test this?
 
 Nếu có thắc mắc:
 - Tạo [Discussion](../../discussions)
-- Email: voicetotext@example.com
+- Email: vuong20032604@gmail.com
 - [Issues](../../issues) (cho bugs/features)
 
 ---
